@@ -3,13 +3,13 @@
 Topics: ANN, CNN
 
 ANN:
-1. Check your data, if features mean, std varies too much, then normalize it 
-2. For high features, check cumulative variance explained, for too many features, first do dimensionality reduction 
-3. Randomly sample mini-batch, randomly initialize weight to some small values. 
-4. Experiment on validation data set with the number of neurons in the hidden layer, and also with number of hidden layers 
-5. Adam, momentum works better in most cases 
-6. Experiment with activation functions --- tanh could perform better compared to sigmoid 
-7. Issues - Divide by zero (add small constant), number (double) overflow issues with loss, activation function 
+1. Check your data, if features mean, std varies too much, then normalize it
+2. For high features, check cumulative variance explained, for too many features, first do dimensionality reduction
+3. Randomly sample mini-batch, randomly initialize weight to some small values.
+4. Experiment on validation data set with the number of neurons in the hidden layer, and also with number of hidden layers
+5. Adam, momentum works better in most cases
+6. Experiment with activation functions --- tanh could perform better compared to sigmoid
+7. Issues - Divide by zero (add small constant), number (double) overflow issues with loss, activation function
 
 CNN:
 8.  implemented Batch Normalization, dropout, data augmentation, guided backpropagation, t-SNE visualization, and fooling. 
