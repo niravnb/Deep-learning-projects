@@ -12,6 +12,7 @@ ANN:
 7. Issues - Divide by zero (add small constant), number (double) overflow issues with loss, activation function
 
 CNN:
+
 8.  implemented Batch Normalization, dropout, data augmentation, guided backpropagation, t-SNE visualization, and fooling.
 
 9. Data Augmentation: Scaling, Flipping, Rotating, adding noise, lightning condition, shifting, etc
